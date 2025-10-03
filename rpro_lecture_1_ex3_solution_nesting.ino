@@ -128,7 +128,7 @@ void loop() {
   }
 //   else stop();
   else if (getDistance()<50) {
-    randomTurnLeft(); turn(0f)
+    randomTurnLeft();
   } else if (getDistance()<100){
     randomTurnRight();
   } else if (getDistance()<150){
